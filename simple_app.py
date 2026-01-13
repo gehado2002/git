@@ -59,7 +59,8 @@ if uploaded_file is not None
 # ----------------------------
 st.markdown(---)
 st.markdown(Model VGG16 Transfer Learning)
-st.markdown(Built with ❤️ using Streamlit)
+st.markdown(Built with using Streamlit)
+
 
 
 
