@@ -19,7 +19,7 @@ st.write("Upload an image and let the AI decide whether it's a Dog or a Cat.")
 # Load Model
 # ----------------------------
 @st.cache_resource
-def load_model()
+def load_model():
     model = tf.keras.models.load_model(vgg16_best_model.keras)
     return model
 
@@ -61,6 +61,7 @@ if uploaded_file is not None
 st.markdown(---)
 st.markdown(Model VGG16 Transfer Learning)
 st.markdown(Built with using Streamlit)
+
 
 
 
