@@ -8,11 +8,10 @@ import tensorflow as tf
 # ----------------------------
 st.set_page_config(
     page_title=Dogs vs Cats Classifier,
-    page_icon=🐶🐱,
     layout=centered
 )
 
-st.title(🐶🐱 Dogs vs Cats Classification)
+st.title(Dogs vs Cats Classification)
 st.write(Upload an image and let the AI decide whether it's a Dog or a Cat.)
 
 # ----------------------------
@@ -51,9 +50,9 @@ if uploaded_file is not None
         prediction = model.predict(processed_image)[0][0]
 
         if prediction  0.5
-            st.success(f🐶 Dog ({prediction.2%} confidence))
+            st.success(f Dog ({prediction.2%} confidence))
         else
-            st.success(f🐱 Cat ({1 - prediction.2%} confidence))
+            st.success(f Cat ({1 - prediction.2%} confidence))
 
 # ----------------------------
 # Footer
@@ -61,3 +60,4 @@ if uploaded_file is not None
 st.markdown(---)
 st.markdown(📌 Model VGG16 Transfer Learning)
 st.markdown(👩‍💻 Built with ❤️ using Streamlit)
+
