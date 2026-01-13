@@ -45,7 +45,7 @@ if uploaded_file is not None
     image = Image.open(uploaded_file).convert(RGB)
     st.image(image, caption=Uploaded Image, use_column_width=True)
 
-    if st.button(🔍 Predict)
+    if st.button(Predict)
         processed_image = preprocess_image(image)
         prediction = model.predict(processed_image)[0][0]
 
@@ -60,6 +60,7 @@ if uploaded_file is not None
 st.markdown(---)
 st.markdown(Model VGG16 Transfer Learning)
 st.markdown(Built with ❤️ using Streamlit)
+
 
 
 
