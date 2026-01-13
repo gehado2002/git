@@ -12,7 +12,7 @@ st.set_page_config(
     layout=centered
 )
 
-st.title(Dogs vs Cats Classification)
+st.title("Dogs vs Cats Classification")
 st.write("Upload an image and let the AI decide whether it's a Dog or a Cat.")
 
 # ----------------------------
@@ -61,6 +61,7 @@ if uploaded_file is not None
 st.markdown(---)
 st.markdown(Model VGG16 Transfer Learning)
 st.markdown(Built with using Streamlit)
+
 
 
 
