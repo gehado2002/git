@@ -37,7 +37,7 @@ def preprocess_image(image)
 # Upload Image
 # ----------------------------
 uploaded_file = st.file_uploader(
-    📤 Upload an image,
+    Upload an image,
     type=[jpg, jpeg, png]
 )
 
@@ -60,6 +60,7 @@ if uploaded_file is not None
 st.markdown(---)
 st.markdown(Model VGG16 Transfer Learning)
 st.markdown(Built with ❤️ using Streamlit)
+
 
 
 
