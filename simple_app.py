@@ -8,6 +8,7 @@ import tensorflow as tf
 # ----------------------------
 st.set_page_config(
     page_title=Dogs vs Cats Classifier,
+    page_icon="🐶🐱",
     layout=centered
 )
 
@@ -60,6 +61,7 @@ if uploaded_file is not None
 st.markdown(---)
 st.markdown(Model VGG16 Transfer Learning)
 st.markdown(Built with using Streamlit)
+
 
 
 
