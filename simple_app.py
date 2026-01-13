@@ -58,7 +58,8 @@ if uploaded_file is not None
 # Footer
 # ----------------------------
 st.markdown(---)
-st.markdown(📌 Model VGG16 Transfer Learning)
-st.markdown(👩‍💻 Built with ❤️ using Streamlit)
+st.markdown(Model VGG16 Transfer Learning)
+st.markdown(Built with ❤️ using Streamlit)
+
 
 
